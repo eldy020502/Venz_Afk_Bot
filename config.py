@@ -26,5 +26,5 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # SUDO USERS
 SUDO_USER = list(
-    map(int, getenv("SUDO_USER", "").split())
+    map(int, getenv("SUDO_USER", "1971311438").split())
 )  # Input type must be interger
